@@ -1,0 +1,28 @@
+* { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+} 
+
+body { 
+  background: linear-gradient(70deg, blue, pink, red) no-repeat;
+} 
+
+.App { 
+  width: 500px; 
+  margin: 30vh auto; 
+  text-align: center; 
+} 
+
+.btns { 
+  width: 70%; 
+  display: flex; 
+  justify-content: space-between; 
+  margin: 50px auto; 
+} 
+
+.btns button { 
+  border-radius: 10px; 
+  padding: 5px 15px; 
+  background-color: goldenrod; 
+}
